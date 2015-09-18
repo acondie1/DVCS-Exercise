@@ -1,16 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="Calculator.aspx.cs" Inherits="Calculator" %>
+﻿<%@ Page Title="Fake Calculator" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeFile="Calculator.aspx.cs" Inherits="Calculator" %>
 
-<!DOCTYPE html>
+<asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>The Fake Calculator</title>
-</head>
-<body>
-    <form id="form1" runat="server">
+    <h2><%: Title %>.</h2>
+
     <div>
         <p>What's One Plus One? Window.</p>
     </div>
-    </form>
-</body>
-</html>
+</asp:Content>
